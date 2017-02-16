@@ -121,7 +121,6 @@ class MyPlotGenerator extends Generator
         for ($Z = 0; $Z < 16; ++$Z) {
             for ($X = 0; $X < 16; ++$X) {
                 $chunk->setBiomeId($X, $Z, 1);
-                $chunk->setBiomeColor($X, $Z, $R, $G, $B);
 
                 $chunk->setBlock($X, 0, $Z, $bottomBlockId, $bottomBlockMeta);
                 for ($y = 1; $y < $groundHeight; ++$y) {
