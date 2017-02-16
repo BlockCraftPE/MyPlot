@@ -101,7 +101,6 @@ class MyPlotGenerator extends Generator
         $shape = $this->getShape($chunkX << 4, $chunkZ << 4);
         $chunk = $this->level->getChunk($chunkX, $chunkZ);
         $chunk->setGenerated();
-        $c = Biome::getBiome(1)->getColor();
         $R = $c >> 16;
         $G = ($c >> 8) & 0xff;
         $B = $c & 0xff;
