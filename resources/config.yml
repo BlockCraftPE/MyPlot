@@ -31,7 +31,7 @@ DataProvider: sqlite
 # Currently supported economy plugins: Economy$, PocketMoney
 # MyPlot will use any economy plugin found on the server.
 # Be sure not to use more than 1 economy plugin!
-UseEconomy: false
+UseEconomy: true
 
 # Amount of plots to be cached.
 # Increasing this number might improve performance, but also increase memory usage.
@@ -53,13 +53,13 @@ DefaultWorld:
   RestrictEntityMovement: true
 
   # How much it costs to claim a plot (Economy must be set to 'true')
-  ClaimPrice: 0
+  ClaimPrice: 100
   # How much it costs to clear a plot (Economy must be set to 'true')
-  ClearPrice: 0
+  ClearPrice: 25
   # How much it costs to dispose a plot (Economy must be set to 'true')
-  DisposePrice: 0
+  DisposePrice: 25
   # How much it costs to reset a plot (Economy must be set to 'true')
-  ResetPrice: 0
+  ResetPrice: 50
 
   # The size of a plot
   PlotSize: 32
